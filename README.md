@@ -450,7 +450,9 @@ contract C {
 }
 ```
 
-### Contract Inheritance
+### Contract Inheritance: Combining multiple smart contracts into one ... in regular programming we say we are combining multiple classes and their properties and methods into one class
+
+The derived contracts / child contracts get the internal and public functions of the base contract/ parent contract
 
 Solidity supports multiple inheritance and polymorphism.
 
