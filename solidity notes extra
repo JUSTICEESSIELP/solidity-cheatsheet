@@ -1,0 +1,8 @@
+so just like how in golang we have interfaces coming in to prevent two different but related structs from repeating the same methods within them .. In solidity we have something similar. 
+
+In other words we are grouping structs which are like classes into one class by virtue of their methods. because they have similar methods the interface they form is like a class that can give 
+uses to those structs.. 
+
+In solidity when we create interfaces what we can use it for is two main things 
+  - Contract to contract interactions 
+  - Implement the interface in the smart contract.. if you dont implement all of its methods it becomes an abstract contract
