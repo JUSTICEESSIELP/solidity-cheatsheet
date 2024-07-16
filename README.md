@@ -456,6 +456,8 @@ The derived contracts / child contracts get the internal and public functions of
 
 Solidity supports multiple inheritance and polymorphism.
 
+Our  code can get quite long. Rather than making one extremely long contract, sometimes it makes sense to split your code logic across multiple contracts to organize the code.
+
 ```solidity
 contract owned {
     function owned() { owner = msg.sender; }
